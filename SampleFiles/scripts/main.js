@@ -42,7 +42,8 @@ const appendElements = () => {
   //id="tweet1"
   // YOUR CODE BELOW THIS LINE
     const img = document.createElement ('img');
-    img.src = 'https://cdn.myanimelist.net/s/common/uploaded_files/1449472620-bb6424fe0da45e55e34761ab11ebd6bf.png';
+    img.src =
+        "https://cdn.myanimelist.net/s/common/uploaded_files/1449472620-bb6424fe0da45e55e34761ab11ebd6bf.png";
     document.getElementById('tweet1').appendChild(img);
 
     const newLink = document.createElement ('a');
